@@ -1,0 +1,35 @@
+.parallax {
+  /* The image used */
+  background-image: url("../hatterVidi/terkep.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zeemaps {
+	background-color: #fcf8f3;
+}
+#piros {
+	color: red;
+}
+#sarga {
+	color: #e6e600;
+}
+p {
+	text-align: center;
+	font-size: 1.2rem;
+	padding-top: 10px;
+}
+h1 {
+	text-align: center;
+	padding: 100px 0 100px 0;
+	font-size: 6rem;
+	color: white;
+	font-family: 'Kaushan Script', cursive;
+	margin: 0px;
+}

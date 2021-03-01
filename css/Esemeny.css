@@ -1,0 +1,71 @@
+	#blog,a
+	{
+		color: white;
+	}
+	h1,h2
+	{
+		color: orange;
+	}
+	h5
+	{
+		color: grey;
+	}
+	li, ul{
+		color: orange;
+	}
+	.text-block 
+	{
+	  position: absolute;
+	  bottom: 0px;
+	  background-color: black;
+	  color: white;
+	  padding: 20px;
+	  width: 94.8%;
+	  opacity: 65%;
+	  
+	}
+	@media screen and (max-width: 1200px)
+	{
+		.text-block
+		{
+			width: 93.8%;
+		}
+	}
+	@media screen and (max-width: 992px)
+	{
+		.text-block
+		{
+			width: 91.7%;
+		}
+	}
+	@media screen and (max-width: 575px)
+	{
+		.text-block
+		{
+			width: 91.7%;
+			display: none;
+		}
+	}
+	@media screen and (max-width: 769px)
+	{
+		.text-block
+		{
+			width: 88.9%;
+
+		}
+	}
+	@media screen and (max-width: 990px) 
+	{
+	  #meret 
+	  {
+	    display: none;
+	  }
+	}
+	#margo
+	{
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		background-color: #4a4a49;
+		
+	}
